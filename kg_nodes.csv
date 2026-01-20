@@ -1,0 +1,256 @@
+id,label,name,age,gender,race,religion,housing type,type,content,course
+S1001,Patient,Tan Wei Ling,72.0,Female,Chinese,Buddhist,HDB 4-Room,,,
+Note_ED_S1001_1,Note,,,,,,,ED,Patient presented with Fall. Admitted to General Ward.,
+Note_ED_S1001_2,Note,,,,,,,ED,Patient presented with Giddiness. Referral to Specialist SOC.,
+Note_ED_S1001_3,Note,,,,,,,ED,Patient presented with Giddiness. Admitted to General Ward.,
+Note_ED_S1001_4,Note,,,,,,,ED,Patient presented with Abdominal Pain. Referral to Specialist SOC.,
+Note_ED_S1001_5,Note,,,,,,,ED,Patient presented with Chest Pain. Admitted to General Ward.,
+Note_ED_S1001_6,Note,,,,,,,ED,Patient presented with Chest Pain. Referral to Specialist SOC.,
+Note_ED_S1001_7,Note,,,,,,,ED,Patient presented with Fever. Referral to Specialist SOC.,
+Note_ED_S1001_8,Note,,,,,,,ED,Patient presented with Giddiness. Admitted to General Ward.,
+Note_ED_S1001_9,Note,,,,,,,ED,Patient presented with Fall. Discharged with 3 days MC.,
+Note_ED_S1001_10,Note,,,,,,,ED,Patient presented with Abdominal Pain. Admitted to General Ward.,
+Note_ED_S1001_11,Note,,,,,,,ED,Patient presented with Fall. Discharged with 3 days MC.,
+Note_ED_S1001_12,Note,,,,,,,ED,Patient presented with Shortness of Breath. Admitted to General Ward.,
+Note_ED_S1001_13,Note,,,,,,,ED,Patient presented with Chest Pain. Admitted to General Ward.,
+Note_ED_S1001_14,Note,,,,,,,ED,Patient presented with Fall. Referral to Specialist SOC.,
+Note_ED_S1001_15,Note,,,,,,,ED,Patient presented with Fever. Referral to Specialist SOC.,
+Note_ED_S1001_16,Note,,,,,,,ED,Patient presented with Giddiness. Admitted to General Ward.,
+Note_ED_S1001_17,Note,,,,,,,ED,Patient presented with Giddiness. Follow up at Polyclinic.,
+Note_ED_S1001_18,Note,,,,,,,ED,Patient presented with Fall. Referral to Specialist SOC.,
+Note_ED_S1001_19,Note,,,,,,,ED,Patient presented with Abdominal Pain. Admitted to General Ward.,
+Note_ED_S1001_20,Note,,,,,,,ED,Patient presented with Fall. Discharged with 3 days MC.,
+Note_ED_S1001_21,Note,,,,,,,ED,Patient presented with Giddiness. Admitted to General Ward.,
+Note_ED_S1001_22,Note,,,,,,,ED,Patient presented with Chest Pain. Referral to Specialist SOC.,
+Note_ED_S1001_23,Note,,,,,,,ED,Patient presented with Shortness of Breath. Referral to Specialist SOC.,
+Note_ED_S1001_24,Note,,,,,,,ED,Patient presented with Fall. Admitted to General Ward.,
+Note_ED_S1001_25,Note,,,,,,,ED,Patient presented with Fever. Admitted to General Ward.,
+Note_DS_S1001_1,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1001_2,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1001_3,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1001_4,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1001_5,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1001_6,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1001_7,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1001_8,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1001_9,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1001_10,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1001_11,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1001_12,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1001_13,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1001_14,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1001_15,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1001_16,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1001_17,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1001_18,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1001_19,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1001_20,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1001_21,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1001_22,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1001_23,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1001_24,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1001_25,Note,,,,,,,DS,,Managed conservatively.
+S1002,Patient,Muhammad Syazwan,29.0,Male,Malay,Muslim,HDB 5-Room,,,
+Note_ED_S1002_1,Note,,,,,,,ED,Patient presented with Shortness of Breath. Discharged with 3 days MC.,
+Note_ED_S1002_2,Note,,,,,,,ED,Patient presented with Chest Pain. Referral to Specialist SOC.,
+Note_ED_S1002_3,Note,,,,,,,ED,Patient presented with Shortness of Breath. Discharged with 3 days MC.,
+Note_ED_S1002_4,Note,,,,,,,ED,Patient presented with Shortness of Breath. Follow up at Polyclinic.,
+Note_ED_S1002_5,Note,,,,,,,ED,Patient presented with Chest Pain. Admitted to General Ward.,
+Note_ED_S1002_6,Note,,,,,,,ED,Patient presented with Shortness of Breath. Follow up at Polyclinic.,
+Note_ED_S1002_7,Note,,,,,,,ED,Patient presented with Fever. Discharged with 3 days MC.,
+Note_ED_S1002_8,Note,,,,,,,ED,Patient presented with Giddiness. Admitted to General Ward.,
+Note_ED_S1002_9,Note,,,,,,,ED,Patient presented with Shortness of Breath. Discharged with 3 days MC.,
+Note_ED_S1002_10,Note,,,,,,,ED,Patient presented with Giddiness. Referral to Specialist SOC.,
+Note_ED_S1002_11,Note,,,,,,,ED,Patient presented with Abdominal Pain. Follow up at Polyclinic.,
+Note_ED_S1002_12,Note,,,,,,,ED,Patient presented with Chest Pain. Follow up at Polyclinic.,
+Note_ED_S1002_13,Note,,,,,,,ED,Patient presented with Fever. Admitted to General Ward.,
+Note_ED_S1002_14,Note,,,,,,,ED,Patient presented with Fall. Discharged with 3 days MC.,
+Note_ED_S1002_15,Note,,,,,,,ED,Patient presented with Chest Pain. Follow up at Polyclinic.,
+Note_ED_S1002_16,Note,,,,,,,ED,Patient presented with Chest Pain. Follow up at Polyclinic.,
+Note_ED_S1002_17,Note,,,,,,,ED,Patient presented with Shortness of Breath. Referral to Specialist SOC.,
+Note_ED_S1002_18,Note,,,,,,,ED,Patient presented with Abdominal Pain. Referral to Specialist SOC.,
+Note_ED_S1002_19,Note,,,,,,,ED,Patient presented with Chest Pain. Follow up at Polyclinic.,
+Note_ED_S1002_20,Note,,,,,,,ED,Patient presented with Abdominal Pain. Discharged with 3 days MC.,
+Note_ED_S1002_21,Note,,,,,,,ED,Patient presented with Abdominal Pain. Admitted to General Ward.,
+Note_ED_S1002_22,Note,,,,,,,ED,Patient presented with Chest Pain. Referral to Specialist SOC.,
+Note_ED_S1002_23,Note,,,,,,,ED,Patient presented with Chest Pain. Discharged with 3 days MC.,
+Note_ED_S1002_24,Note,,,,,,,ED,Patient presented with Giddiness. Referral to Specialist SOC.,
+Note_ED_S1002_25,Note,,,,,,,ED,Patient presented with Abdominal Pain. Admitted to General Ward.,
+Note_DS_S1002_1,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1002_2,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1002_3,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1002_4,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1002_5,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1002_6,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1002_7,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1002_8,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1002_9,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1002_10,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1002_11,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1002_12,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1002_13,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1002_14,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1002_15,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1002_16,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1002_17,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1002_18,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1002_19,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1002_20,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1002_21,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1002_22,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1002_23,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1002_24,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1002_25,Note,,,,,,,DS,,Managed conservatively.
+S1003,Patient,Rajendran s/o Muthu,58.0,Male,Indian,Hindu,HDB 3-Room,,,
+Note_ED_S1003_1,Note,,,,,,,ED,Patient presented with Fall. Discharged with 3 days MC.,
+Note_ED_S1003_2,Note,,,,,,,ED,Patient presented with Giddiness. Discharged with 3 days MC.,
+Note_ED_S1003_3,Note,,,,,,,ED,Patient presented with Giddiness. Admitted to General Ward.,
+Note_ED_S1003_4,Note,,,,,,,ED,Patient presented with Giddiness. Follow up at Polyclinic.,
+Note_ED_S1003_5,Note,,,,,,,ED,Patient presented with Fever. Referral to Specialist SOC.,
+Note_ED_S1003_6,Note,,,,,,,ED,Patient presented with Fever. Admitted to General Ward.,
+Note_ED_S1003_7,Note,,,,,,,ED,Patient presented with Abdominal Pain. Admitted to General Ward.,
+Note_ED_S1003_8,Note,,,,,,,ED,Patient presented with Shortness of Breath. Referral to Specialist SOC.,
+Note_ED_S1003_9,Note,,,,,,,ED,Patient presented with Shortness of Breath. Discharged with 3 days MC.,
+Note_ED_S1003_10,Note,,,,,,,ED,Patient presented with Shortness of Breath. Discharged with 3 days MC.,
+Note_ED_S1003_11,Note,,,,,,,ED,Patient presented with Abdominal Pain. Referral to Specialist SOC.,
+Note_ED_S1003_12,Note,,,,,,,ED,Patient presented with Shortness of Breath. Follow up at Polyclinic.,
+Note_ED_S1003_13,Note,,,,,,,ED,Patient presented with Fall. Referral to Specialist SOC.,
+Note_ED_S1003_14,Note,,,,,,,ED,Patient presented with Fever. Discharged with 3 days MC.,
+Note_ED_S1003_15,Note,,,,,,,ED,Patient presented with Shortness of Breath. Discharged with 3 days MC.,
+Note_ED_S1003_16,Note,,,,,,,ED,Patient presented with Giddiness. Discharged with 3 days MC.,
+Note_ED_S1003_17,Note,,,,,,,ED,Patient presented with Giddiness. Discharged with 3 days MC.,
+Note_ED_S1003_18,Note,,,,,,,ED,Patient presented with Fall. Discharged with 3 days MC.,
+Note_ED_S1003_19,Note,,,,,,,ED,Patient presented with Shortness of Breath. Follow up at Polyclinic.,
+Note_ED_S1003_20,Note,,,,,,,ED,Patient presented with Giddiness. Admitted to General Ward.,
+Note_ED_S1003_21,Note,,,,,,,ED,Patient presented with Fever. Referral to Specialist SOC.,
+Note_ED_S1003_22,Note,,,,,,,ED,Patient presented with Fall. Referral to Specialist SOC.,
+Note_ED_S1003_23,Note,,,,,,,ED,Patient presented with Abdominal Pain. Referral to Specialist SOC.,
+Note_ED_S1003_24,Note,,,,,,,ED,Patient presented with Giddiness. Discharged with 3 days MC.,
+Note_ED_S1003_25,Note,,,,,,,ED,Patient presented with Abdominal Pain. Discharged with 3 days MC.,
+Note_DS_S1003_1,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1003_2,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1003_3,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1003_4,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1003_5,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1003_6,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1003_7,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1003_8,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1003_9,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1003_10,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1003_11,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1003_12,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1003_13,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1003_14,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1003_15,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1003_16,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1003_17,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1003_18,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1003_19,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1003_20,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1003_21,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1003_22,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1003_23,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1003_24,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1003_25,Note,,,,,,,DS,,Managed conservatively.
+S1004,Patient,Chloe de Souza,41.0,Female,Eurasian,Christian,Condominium,,,
+Note_ED_S1004_1,Note,,,,,,,ED,Patient presented with Fever. Discharged with 3 days MC.,
+Note_ED_S1004_2,Note,,,,,,,ED,Patient presented with Giddiness. Referral to Specialist SOC.,
+Note_ED_S1004_3,Note,,,,,,,ED,Patient presented with Abdominal Pain. Admitted to General Ward.,
+Note_ED_S1004_4,Note,,,,,,,ED,Patient presented with Fever. Follow up at Polyclinic.,
+Note_ED_S1004_5,Note,,,,,,,ED,Patient presented with Fever. Admitted to General Ward.,
+Note_ED_S1004_6,Note,,,,,,,ED,Patient presented with Abdominal Pain. Follow up at Polyclinic.,
+Note_ED_S1004_7,Note,,,,,,,ED,Patient presented with Shortness of Breath. Admitted to General Ward.,
+Note_ED_S1004_8,Note,,,,,,,ED,Patient presented with Fall. Follow up at Polyclinic.,
+Note_ED_S1004_9,Note,,,,,,,ED,Patient presented with Giddiness. Follow up at Polyclinic.,
+Note_ED_S1004_10,Note,,,,,,,ED,Patient presented with Shortness of Breath. Discharged with 3 days MC.,
+Note_ED_S1004_11,Note,,,,,,,ED,Patient presented with Giddiness. Admitted to General Ward.,
+Note_ED_S1004_12,Note,,,,,,,ED,Patient presented with Chest Pain. Discharged with 3 days MC.,
+Note_ED_S1004_13,Note,,,,,,,ED,Patient presented with Shortness of Breath. Follow up at Polyclinic.,
+Note_ED_S1004_14,Note,,,,,,,ED,Patient presented with Chest Pain. Referral to Specialist SOC.,
+Note_ED_S1004_15,Note,,,,,,,ED,Patient presented with Chest Pain. Referral to Specialist SOC.,
+Note_ED_S1004_16,Note,,,,,,,ED,Patient presented with Fever. Follow up at Polyclinic.,
+Note_ED_S1004_17,Note,,,,,,,ED,Patient presented with Shortness of Breath. Admitted to General Ward.,
+Note_ED_S1004_18,Note,,,,,,,ED,Patient presented with Fever. Referral to Specialist SOC.,
+Note_ED_S1004_19,Note,,,,,,,ED,Patient presented with Giddiness. Admitted to General Ward.,
+Note_ED_S1004_20,Note,,,,,,,ED,Patient presented with Shortness of Breath. Discharged with 3 days MC.,
+Note_ED_S1004_21,Note,,,,,,,ED,Patient presented with Fall. Referral to Specialist SOC.,
+Note_ED_S1004_22,Note,,,,,,,ED,Patient presented with Giddiness. Discharged with 3 days MC.,
+Note_ED_S1004_23,Note,,,,,,,ED,Patient presented with Giddiness. Discharged with 3 days MC.,
+Note_ED_S1004_24,Note,,,,,,,ED,Patient presented with Fever. Admitted to General Ward.,
+Note_ED_S1004_25,Note,,,,,,,ED,Patient presented with Giddiness. Referral to Specialist SOC.,
+Note_DS_S1004_1,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1004_2,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1004_3,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1004_4,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1004_5,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1004_6,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1004_7,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1004_8,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1004_9,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1004_10,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1004_11,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1004_12,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1004_13,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1004_14,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1004_15,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1004_16,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1004_17,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1004_18,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1004_19,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1004_20,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1004_21,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1004_22,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1004_23,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1004_24,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1004_25,Note,,,,,,,DS,,Managed conservatively.
+S1005,Patient,Lim Boon Hock,84.0,Male,Chinese,Taoist,HDB 2-Room (Rental),,,
+Note_ED_S1005_1,Note,,,,,,,ED,Patient presented with Fever. Follow up at Polyclinic.,
+Note_ED_S1005_2,Note,,,,,,,ED,Patient presented with Fall. Discharged with 3 days MC.,
+Note_ED_S1005_3,Note,,,,,,,ED,Patient presented with Abdominal Pain. Admitted to General Ward.,
+Note_ED_S1005_4,Note,,,,,,,ED,Patient presented with Fall. Admitted to General Ward.,
+Note_ED_S1005_5,Note,,,,,,,ED,Patient presented with Abdominal Pain. Discharged with 3 days MC.,
+Note_ED_S1005_6,Note,,,,,,,ED,Patient presented with Fever. Referral to Specialist SOC.,
+Note_ED_S1005_7,Note,,,,,,,ED,Patient presented with Shortness of Breath. Admitted to General Ward.,
+Note_ED_S1005_8,Note,,,,,,,ED,Patient presented with Shortness of Breath. Referral to Specialist SOC.,
+Note_ED_S1005_9,Note,,,,,,,ED,Patient presented with Abdominal Pain. Follow up at Polyclinic.,
+Note_ED_S1005_10,Note,,,,,,,ED,Patient presented with Giddiness. Follow up at Polyclinic.,
+Note_ED_S1005_11,Note,,,,,,,ED,Patient presented with Chest Pain. Follow up at Polyclinic.,
+Note_ED_S1005_12,Note,,,,,,,ED,Patient presented with Shortness of Breath. Discharged with 3 days MC.,
+Note_ED_S1005_13,Note,,,,,,,ED,Patient presented with Abdominal Pain. Admitted to General Ward.,
+Note_ED_S1005_14,Note,,,,,,,ED,Patient presented with Chest Pain. Admitted to General Ward.,
+Note_ED_S1005_15,Note,,,,,,,ED,Patient presented with Abdominal Pain. Follow up at Polyclinic.,
+Note_ED_S1005_16,Note,,,,,,,ED,Patient presented with Giddiness. Discharged with 3 days MC.,
+Note_ED_S1005_17,Note,,,,,,,ED,Patient presented with Abdominal Pain. Admitted to General Ward.,
+Note_ED_S1005_18,Note,,,,,,,ED,Patient presented with Chest Pain. Admitted to General Ward.,
+Note_ED_S1005_19,Note,,,,,,,ED,Patient presented with Fall. Referral to Specialist SOC.,
+Note_ED_S1005_20,Note,,,,,,,ED,Patient presented with Fever. Discharged with 3 days MC.,
+Note_ED_S1005_21,Note,,,,,,,ED,Patient presented with Shortness of Breath. Referral to Specialist SOC.,
+Note_ED_S1005_22,Note,,,,,,,ED,Patient presented with Chest Pain. Discharged with 3 days MC.,
+Note_ED_S1005_23,Note,,,,,,,ED,Patient presented with Shortness of Breath. Follow up at Polyclinic.,
+Note_ED_S1005_24,Note,,,,,,,ED,Patient presented with Fever. Admitted to General Ward.,
+Note_ED_S1005_25,Note,,,,,,,ED,Patient presented with Shortness of Breath. Follow up at Polyclinic.,
+Note_DS_S1005_1,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1005_2,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1005_3,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1005_4,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1005_5,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1005_6,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1005_7,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1005_8,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1005_9,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1005_10,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1005_11,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1005_12,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1005_13,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1005_14,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1005_15,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1005_16,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1005_17,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1005_18,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1005_19,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1005_20,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1005_21,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1005_22,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1005_23,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1005_24,Note,,,,,,,DS,,Managed conservatively.
+Note_DS_S1005_25,Note,,,,,,,DS,,Managed conservatively.
