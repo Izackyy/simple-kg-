@@ -1,7 +1,7 @@
 import pandas as pd
 import random
 
-# 1. Setup Patient Data (10 personas)
+# 1. Patient Persona Setup (10 patients)
 patients_data = [
     {"id": "S1001", "name": "Tan Wei Ling", "age": 72, "gender": "Female", "has_rdm": True},
     {"id": "S1002", "name": "Muhammad Syazwan", "age": 29, "gender": "Male", "has_rdm": False},
@@ -15,11 +15,10 @@ patients_data = [
     {"id": "S1010", "name": "Siti Aminah", "age": 78, "gender": "Female", "has_rdm": False}
 ]
 
-# RDM Entities
+# RDM Clinical Libraries
 rdm_triggers = ["Crush Injury", "Statin-Induced Myopathy", "Extreme Physical Exertion", "Prolonged Immobilization"]
 rdm_complications = ["Acute Kidney Injury", "Hyperkalemia", "Compartment Syndrome", "Metabolic Acidosis"]
 rdm_meds = ["0.9% Normal Saline (IV)", "Sodium Bicarbonate", "Mannitol", "Calcium Gluconate"]
-general_conditions = ["Hypertension", "Type 2 Diabetes", "Hyperlipidemia", "Atorvastatin Use"]
 
 nodes, edges, unique_entities = [], [], {}
 
@@ -29,57 +28,38 @@ def add_node(id, label, props):
 def add_edge(src, tgt, type, props=None):
     edges.append({"source": src, "target": tgt, "type": type, **(props or {})})
 
+# 2. Generation Loop
 for p in patients_data:
     pid = p['id']
-    add_node(pid, "Patient", {"name": p['name'], "age": p['age'], "gender": p['gender']})
+    # Create Patient Node
+    add_node(pid, "Patient", {"name": p['name'], "age": p['age'], "gender": p['gender'], "has_rdm": p['has_rdm']})
     
-    # Pre-existing conditions
-    p_conds = random.sample(general_conditions, 2)
-    for cond in p_conds:
-        cid = f"Cond_{cond.replace(' ', '_')}"
-        if cid not in unique_entities:
-            add_node(cid, "Condition", {"name": cond})
-            unique_entities[cid] = True
-        add_edge(pid, cid, "HAS_HISTORY")
-
-    # If the patient has Rhabdomyolysis (RDM)
     if p['has_rdm']:
-        trigger = random.choice(rdm_triggers)
-        complication = random.choice(rdm_complications)
-        treatment = random.choice(rdm_meds)
+        idx = patients_data.index(p) % 4
+        trigger, comp, med = rdm_triggers[idx], rdm_complications[idx], rdm_meds[idx]
         
-        # Trigger Node
+        # 1. Trigger Node & Edge (Carrying CK Level)
         tid = f"Trigger_{trigger.replace(' ', '_')}"
         if tid not in unique_entities:
             add_node(tid, "Trigger", {"name": trigger})
             unique_entities[tid] = True
-        add_edge(pid, tid, "TRIGGERED_BY")
+        add_edge(pid, tid, "TRIGGERED_BY", {"peak_ck_level": random.randint(5000, 50000)})
         
-        # Complication Node
-        coid = f"Comp_{complication.replace(' ', '_')}"
+        # 2. Complication Node & Edge
+        coid = f"Comp_{comp.replace(' ', '_')}"
         if coid not in unique_entities:
-            add_node(coid, "Complication", {"name": complication})
+            add_node(coid, "Complication", {"name": comp})
             unique_entities[coid] = True
         add_edge(pid, coid, "DEVELOPED")
         
-        # Treatment Node
-        mid = f"Med_{treatment.replace(' ', '_')}"
+        # 3. Treatment Node & Edge
+        mid = f"Med_{med.replace(' ', '_')}"
         if mid not in unique_entities:
-            add_node(mid, "Treatment", {"name": treatment})
+            add_node(mid, "Treatment", {"name": med})
             unique_entities[mid] = True
         add_edge(pid, mid, "TREATED_WITH")
 
-    # Generate Note "Bridges" for the clinical journey
-    for i in range(1, 6): # Reduced to 5 notes for clarity
-        nid = f"Note_{pid}_{i}"
-        add_node(nid, "Note", {"type": "Clinical Summary", "visit": i})
-        add_edge(pid, nid, "HAS_NOTE")
-        if p['has_rdm']:
-            # In clinical notes for RDM, we track CK levels
-            ck_level = random.randint(1000, 50000)
-            add_edge(nid, tid, "DOCUMENTS_ETIOLOGY", {"ck_level": ck_level})
-            add_edge(nid, mid, "DOCUMENTS_THERAPY")
-
-# Save
-pd.DataFrame(nodes).to_csv('kg_nodes_rdm.csv', index=False)
-pd.DataFrame(edges).to_csv('kg_edges_rdm.csv', index=False)
+# 3. Export to CSV
+pd.DataFrame(nodes).to_csv('nodes_direct_rdm.csv', index=False)
+pd.DataFrame(edges).to_csv('edges_direct_rdm.csv', index=False)
+print("Files generated: nodes_direct_rdm.csv, edges_direct_rdm.csv")
