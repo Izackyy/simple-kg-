@@ -1,0 +1,102 @@
+{
+  "patient_nodes": [
+    {
+      "id": "P99",
+      "name": "Chen Wei",
+      "age": 72,
+      "gender": "Male",
+      "ethnicity": "Chinese"
+    }
+  ],
+  "medication_nodes": [
+    {
+      "id": "M9901",
+      "name": "Metformin"
+    },
+    {
+      "id": "M9902",
+      "name": "Atorvastatin"
+    }
+  ],
+  "condition_nodes": [
+    {
+      "id": "C9901",
+      "name": "Type 2 Diabetes Mellitus"
+    },
+    {
+      "id": "C9902",
+      "name": "Hyperlipidemia"
+    }
+  ],
+  "encounter_nodes": [
+    {
+      "id": "E9901",
+      "type": "Inpatient Admission"
+    }
+  ],
+  "lab_nodes": [
+    {
+      "id": "L9901",
+      "test_name": "HbA1c",
+      "value": 8.2,
+      "unit": "%"
+    },
+    {
+      "id": "L9902",
+      "test_name": "Serum Creatinine",
+      "value": 145.0,
+      "unit": "µmol/L"
+    }
+  ],
+  "prescribed_edges": [
+    {
+      "patient_id": "P99",
+      "medication_id": "M9901",
+      "start_date": "2011-05-15",
+      "end_date": "None",
+      "dose": "1000mg",
+      "intensity": "Twice Daily"
+    },
+    {
+      "patient_id": "P99",
+      "medication_id": "M9902",
+      "start_date": "2018-09-05",
+      "end_date": "None",
+      "dose": "20mg",
+      "intensity": "Nightly"
+    }
+  ],
+  "condition_edges": [
+    {
+      "patient_id": "P99",
+      "condition_id": "C9901",
+      "occurrence_date": "2011-05-12",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P99",
+      "condition_id": "C9902",
+      "occurrence_date": "2018-09-01",
+      "status": "Active"
+    }
+  ],
+  "encounter_edges": [
+    {
+      "patient_id": "P99",
+      "encounter_id": "E9901",
+      "occurrence_date": "2026-01-20"
+    }
+  ],
+  "lab_result_edges": [
+    {
+      "encounter_id": "E9901",
+      "lab_id": "L9901"
+    },
+    {
+      "encounter_id": "E9901",
+      "lab_id": "L9902"
+    }
+  ],
+  "confidence": 1,
+  "justification": "Extracted all nodes and edges based on the provided clinical note, populating attributes as requested. Used 'Unknown' or -1 for missing values and 'Redacted' for redacted values where applicable. Ensured all bracketed fields in the schema were filled."
+}

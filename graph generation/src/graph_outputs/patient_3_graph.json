@@ -1,0 +1,217 @@
+{
+  "patient_nodes": [
+    {
+      "id": "P3",
+      "name": "Li Wei",
+      "age": 72,
+      "gender": "Male",
+      "ethnicity": "Chinese"
+    }
+  ],
+  "medication_nodes": [
+    {
+      "id": "M1",
+      "name": "Amlodipine"
+    },
+    {
+      "id": "M2",
+      "name": "Nebulized bronchodilators"
+    },
+    {
+      "id": "M3",
+      "name": "Steroids"
+    }
+  ],
+  "condition_nodes": [
+    {
+      "id": "C1",
+      "name": "Hypertension"
+    },
+    {
+      "id": "C2",
+      "name": "Type 2 Diabetes Mellitus"
+    },
+    {
+      "id": "C3",
+      "name": "Osteoarthritis"
+    },
+    {
+      "id": "C4",
+      "name": "Shortness of breath"
+    },
+    {
+      "id": "C5",
+      "name": "Chest tightness"
+    },
+    {
+      "id": "C6",
+      "name": "Weakness"
+    },
+    {
+      "id": "C7",
+      "name": "Fatigue"
+    },
+    {
+      "id": "C8",
+      "name": "Acute Exacerbation of COPD"
+    }
+  ],
+  "encounter_nodes": [
+    {
+      "id": "E1",
+      "type": "Admission"
+    },
+    {
+      "id": "E2",
+      "type": "Follow-up"
+    }
+  ],
+  "lab_nodes": [
+    {
+      "id": "L1",
+      "test_name": "Urea",
+      "value": 7.8,
+      "unit": "mmol/L"
+    },
+    {
+      "id": "L2",
+      "test_name": "Na",
+      "value": 138.0,
+      "unit": "Unknown"
+    },
+    {
+      "id": "L3",
+      "test_name": "K",
+      "value": 3.9,
+      "unit": "Unknown"
+    },
+    {
+      "id": "L4",
+      "test_name": "Bicarb",
+      "value": 26.0,
+      "unit": "Unknown"
+    },
+    {
+      "id": "L5",
+      "test_name": "Hb",
+      "value": 12.5,
+      "unit": "g/dL"
+    },
+    {
+      "id": "L6",
+      "test_name": "TW",
+      "value": 4.8,
+      "unit": "Unknown"
+    },
+    {
+      "id": "L7",
+      "test_name": "Blood Glucose",
+      "value": 8.2,
+      "unit": "mmol/L"
+    }
+  ],
+  "prescribed_edges": [
+    {
+      "patient_id": "P3",
+      "medication_id": "M1",
+      "start_date": "Unknown",
+      "end_date": "Unknown",
+      "dose": "Unknown",
+      "intensity": "Unknown"
+    }
+  ],
+  "condition_edges": [
+    {
+      "patient_id": "P3",
+      "condition_id": "C1",
+      "occurrence_date": "Unknown",
+      "status": "Managed"
+    },
+    {
+      "patient_id": "P3",
+      "condition_id": "C2",
+      "occurrence_date": "Unknown",
+      "status": "Diet controlled"
+    },
+    {
+      "patient_id": "P3",
+      "condition_id": "C3",
+      "occurrence_date": "Unknown",
+      "status": "Unknown"
+    },
+    {
+      "patient_id": "P3",
+      "condition_id": "C4",
+      "occurrence_date": "Unknown",
+      "status": "Unknown"
+    },
+    {
+      "patient_id": "P3",
+      "condition_id": "C5",
+      "occurrence_date": "Unknown",
+      "status": "Unknown"
+    },
+    {
+      "patient_id": "P3",
+      "condition_id": "C6",
+      "occurrence_date": "Unknown",
+      "status": "Unknown"
+    },
+    {
+      "patient_id": "P3",
+      "condition_id": "C7",
+      "occurrence_date": "Unknown",
+      "status": "Unknown"
+    },
+    {
+      "patient_id": "P3",
+      "condition_id": "C8",
+      "occurrence_date": "Unknown",
+      "status": "Unknown"
+    }
+  ],
+  "encounter_edges": [
+    {
+      "patient_id": "P3",
+      "encounter_id": "E1",
+      "occurrence_date": "Unknown"
+    },
+    {
+      "patient_id": "P3",
+      "encounter_id": "E2",
+      "occurrence_date": "Unknown"
+    }
+  ],
+  "lab_result_edges": [
+    {
+      "encounter_id": "E1",
+      "lab_id": "L1"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "L2"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "L3"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "L4"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "L5"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "L6"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "L7"
+    }
+  ],
+  "confidence": 1,
+  "justification": "The patient is Li Wei, a 72-year-old Chinese male (P3). He has a history of Hypertension (C1), Type 2 Diabetes Mellitus (C2), and Osteoarthritis (C3). He was admitted (E1) for shortness of breath (C4) and chest tightness (C5), reporting weakness (C6) and fatigue (C7). His vital signs on admission were HR 110, SpO2 91% on 2L NC, RR 24, BP 148/88 mmHg. Initial investigations revealed Urea 7.8 mmol/L (L1), Na 138 (L2), K 3.9 (L3), Bicarb 26 (L4), Hb 12.5 g/dL (L5), TW 4.8 (L6), and Blood Glucose 8.2 mmol/L (L7). He was diagnosed with Acute Exacerbation of COPD (C8) and managed with nebulized bronchodilators (M2) and steroids (M3). He is also managed for Hypertension (C1) with Amlodipine (M1). His diabetes (C2) is diet-controlled. He is responding to treatment and scheduled for follow-up (E2)."
+}

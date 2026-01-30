@@ -1,0 +1,583 @@
+{
+  "patient_nodes": [
+    {
+      "id": "P79",
+      "name": "[REDACTED]",
+      "age": 68,
+      "gender": "Male",
+      "ethnicity": "Malay"
+    }
+  ],
+  "medication_nodes": [
+    {
+      "id": "M1",
+      "name": "Metformin"
+    },
+    {
+      "id": "M2",
+      "name": "Glipizide"
+    },
+    {
+      "id": "M3",
+      "name": "Amlodipine"
+    },
+    {
+      "id": "M4",
+      "name": "Salbutamol"
+    },
+    {
+      "id": "M5",
+      "name": "Ipratropium"
+    },
+    {
+      "id": "M6",
+      "name": "Loperamide"
+    },
+    {
+      "id": "M7",
+      "name": "Ceftriaxone"
+    },
+    {
+      "id": "M8",
+      "name": "IV insulin drip"
+    },
+    {
+      "id": "M9",
+      "name": "Morphine"
+    },
+    {
+      "id": "M10",
+      "name": "Benzodiazepines"
+    }
+  ],
+  "condition_nodes": [
+    {
+      "id": "C1",
+      "name": "Type 2 Diabetes Mellitus (T2DM)"
+    },
+    {
+      "id": "C2",
+      "name": "Hypertension (HTN)"
+    },
+    {
+      "id": "C3",
+      "name": "Chronic Kidney Disease (CKD) Stage 3"
+    },
+    {
+      "id": "C4",
+      "name": "Mild Cognitive Impairment (MCI)"
+    },
+    {
+      "id": "C5",
+      "name": "Chronic Obstructive Pulmonary Disease (COPD)"
+    },
+    {
+      "id": "C6",
+      "name": "Left Ventricular Hypertrophy (LVH)"
+    },
+    {
+      "id": "C7",
+      "name": "Acute confusion"
+    },
+    {
+      "id": "C8",
+      "name": "Incontinence"
+    },
+    {
+      "id": "C9",
+      "name": "Fall"
+    },
+    {
+      "id": "C10",
+      "name": "Mild fever"
+    },
+    {
+      "id": "C11",
+      "name": "Intermittent chills"
+    },
+    {
+      "id": "C12",
+      "name": "Generalized weakness"
+    },
+    {
+      "id": "C13",
+      "name": "Poor appetite"
+    },
+    {
+      "id": "C14",
+      "name": "Weight loss"
+    },
+    {
+      "id": "C15",
+      "name": "Hematochezia"
+    },
+    {
+      "id": "C16",
+      "name": "Severe UTI"
+    },
+    {
+      "id": "C17",
+      "name": "Sepsis"
+    },
+    {
+      "id": "C18",
+      "name": "Acute Kidney Injury (AKI)"
+    },
+    {
+      "id": "C19",
+      "name": "Hyperglycemia"
+    },
+    {
+      "id": "C20",
+      "name": "Delirium"
+    },
+    {
+      "id": "C21",
+      "name": "Mild hematochezia"
+    },
+    {
+      "id": "C22",
+      "name": "COPD exacerbation"
+    },
+    {
+      "id": "C23",
+      "name": "Acute stroke"
+    },
+    {
+      "id": "C24",
+      "name": "Hemorrhage"
+    },
+    {
+      "id": "C25",
+      "name": "Mild atrophy"
+    }
+  ],
+  "encounter_nodes": [
+    {
+      "id": "E1",
+      "type": "Admission"
+    },
+    {
+      "id": "E2",
+      "type": "Proctoscopy"
+    },
+    {
+      "id": "E3",
+      "type": "Colonoscopy"
+    },
+    {
+      "id": "E4",
+      "type": "Palliative Care Consultation"
+    },
+    {
+      "id": "E5",
+      "type": "Family Counseling"
+    },
+    {
+      "id": "E6",
+      "type": "Referral to Social Services"
+    }
+  ],
+  "lab_nodes": [
+    {
+      "id": "L1",
+      "test_name": "Urea",
+      "value": 28.4,
+      "unit": "Unknown"
+    },
+    {
+      "id": "L2",
+      "test_name": "Na",
+      "value": 132.0,
+      "unit": "Unknown"
+    },
+    {
+      "id": "L3",
+      "test_name": "K",
+      "value": 5.1,
+      "unit": "Unknown"
+    },
+    {
+      "id": "L4",
+      "test_name": "Bicarb",
+      "value": 18.0,
+      "unit": "Unknown"
+    },
+    {
+      "id": "L5",
+      "test_name": "Cr",
+      "value": 210.0,
+      "unit": "Unknown"
+    },
+    {
+      "id": "L6",
+      "test_name": "Hb",
+      "value": 10.2,
+      "unit": "Unknown"
+    },
+    {
+      "id": "L7",
+      "test_name": "TW",
+      "value": 6.8,
+      "unit": "Unknown"
+    },
+    {
+      "id": "L8",
+      "test_name": "Plt",
+      "value": 120.0,
+      "unit": "Unknown"
+    },
+    {
+      "id": "L9",
+      "test_name": "Blood Glucose",
+      "value": 18.3,
+      "unit": "mmol/L"
+    },
+    {
+      "id": "L10",
+      "test_name": "Urinalysis",
+      "value": 1.0,
+      "unit": "Unknown"
+    },
+    {
+      "id": "L11",
+      "test_name": "CRP",
+      "value": 140.0,
+      "unit": "mg/L"
+    },
+    {
+      "id": "L12",
+      "test_name": "HbA1c",
+      "value": 9.8,
+      "unit": "%"
+    },
+    {
+      "id": "L13",
+      "test_name": "Stool occult blood",
+      "value": 1.0,
+      "unit": "Unknown"
+    }
+  ],
+  "prescribed_edges": [
+    {
+      "patient_id": "P79",
+      "medication_id": "M1",
+      "start_date": "Unknown",
+      "end_date": "Unknown",
+      "dose": "Unknown",
+      "intensity": "Unknown"
+    },
+    {
+      "patient_id": "P79",
+      "medication_id": "M2",
+      "start_date": "Unknown",
+      "end_date": "Unknown",
+      "dose": "Unknown",
+      "intensity": "Unknown"
+    },
+    {
+      "patient_id": "P79",
+      "medication_id": "M3",
+      "start_date": "Unknown",
+      "end_date": "Unknown",
+      "dose": "Unknown",
+      "intensity": "Unknown"
+    },
+    {
+      "patient_id": "P79",
+      "medication_id": "M4",
+      "start_date": "Unknown",
+      "end_date": "Unknown",
+      "dose": "Unknown",
+      "intensity": "Unknown"
+    },
+    {
+      "patient_id": "P79",
+      "medication_id": "M5",
+      "start_date": "Unknown",
+      "end_date": "Unknown",
+      "dose": "Unknown",
+      "intensity": "Unknown"
+    },
+    {
+      "patient_id": "P79",
+      "medication_id": "M6",
+      "start_date": "2 weeks prior",
+      "end_date": "Unknown",
+      "dose": "Unknown",
+      "intensity": "Unknown"
+    },
+    {
+      "patient_id": "P79",
+      "medication_id": "M7",
+      "start_date": "Unknown",
+      "end_date": "Unknown",
+      "dose": "Unknown",
+      "intensity": "Unknown"
+    },
+    {
+      "patient_id": "P79",
+      "medication_id": "M8",
+      "start_date": "Unknown",
+      "end_date": "Unknown",
+      "dose": "Unknown",
+      "intensity": "Unknown"
+    },
+    {
+      "patient_id": "P79",
+      "medication_id": "M9",
+      "start_date": "Unknown",
+      "end_date": "Unknown",
+      "dose": "low-dose",
+      "intensity": "Unknown"
+    },
+    {
+      "patient_id": "P79",
+      "medication_id": "M10",
+      "start_date": "Unknown",
+      "end_date": "Unknown",
+      "dose": "Unknown",
+      "intensity": "Unknown"
+    }
+  ],
+  "condition_edges": [
+    {
+      "patient_id": "P79",
+      "condition_id": "C1",
+      "occurrence_date": "Unknown",
+      "status": "Chronic"
+    },
+    {
+      "patient_id": "P79",
+      "condition_id": "C2",
+      "occurrence_date": "Unknown",
+      "status": "Chronic"
+    },
+    {
+      "patient_id": "P79",
+      "condition_id": "C3",
+      "occurrence_date": "Unknown",
+      "status": "Chronic"
+    },
+    {
+      "patient_id": "P79",
+      "condition_id": "C4",
+      "occurrence_date": "Unknown",
+      "status": "Chronic"
+    },
+    {
+      "patient_id": "P79",
+      "condition_id": "C5",
+      "occurrence_date": "Unknown",
+      "status": "Chronic"
+    },
+    {
+      "patient_id": "P79",
+      "condition_id": "C6",
+      "occurrence_date": "Unknown",
+      "status": "History of"
+    },
+    {
+      "patient_id": "P79",
+      "condition_id": "C7",
+      "occurrence_date": "3 days prior",
+      "status": "Acute"
+    },
+    {
+      "patient_id": "P79",
+      "condition_id": "C8",
+      "occurrence_date": "3 days prior",
+      "status": "Acute"
+    },
+    {
+      "patient_id": "P79",
+      "condition_id": "C9",
+      "occurrence_date": "3 days prior",
+      "status": "Acute"
+    },
+    {
+      "patient_id": "P79",
+      "condition_id": "C10",
+      "occurrence_date": "Unknown",
+      "status": "Acute"
+    },
+    {
+      "patient_id": "P79",
+      "condition_id": "C11",
+      "occurrence_date": "Unknown",
+      "status": "Acute"
+    },
+    {
+      "patient_id": "P79",
+      "condition_id": "C12",
+      "occurrence_date": "Unknown",
+      "status": "Acute"
+    },
+    {
+      "patient_id": "P79",
+      "condition_id": "C13",
+      "occurrence_date": "Unknown",
+      "status": "Acute"
+    },
+    {
+      "patient_id": "P79",
+      "condition_id": "C14",
+      "occurrence_date": "Unknown",
+      "status": "Acute"
+    },
+    {
+      "patient_id": "P79",
+      "condition_id": "C15",
+      "occurrence_date": "Unknown",
+      "status": "Acute"
+    },
+    {
+      "patient_id": "P79",
+      "condition_id": "C16",
+      "occurrence_date": "Unknown",
+      "status": "Acute"
+    },
+    {
+      "patient_id": "P79",
+      "condition_id": "C17",
+      "occurrence_date": "Unknown",
+      "status": "Acute"
+    },
+    {
+      "patient_id": "P79",
+      "condition_id": "C18",
+      "occurrence_date": "Unknown",
+      "status": "Acute"
+    },
+    {
+      "patient_id": "P79",
+      "condition_id": "C19",
+      "occurrence_date": "Unknown",
+      "status": "Acute"
+    },
+    {
+      "patient_id": "P79",
+      "condition_id": "C20",
+      "occurrence_date": "Unknown",
+      "status": "Acute"
+    },
+    {
+      "patient_id": "P79",
+      "condition_id": "C21",
+      "occurrence_date": "Unknown",
+      "status": "Acute"
+    },
+    {
+      "patient_id": "P79",
+      "condition_id": "C22",
+      "occurrence_date": "Unknown",
+      "status": "Acute"
+    },
+    {
+      "patient_id": "P79",
+      "condition_id": "C23",
+      "occurrence_date": "Unknown",
+      "status": "History of"
+    },
+    {
+      "patient_id": "P79",
+      "condition_id": "C24",
+      "occurrence_date": "Unknown",
+      "status": "History of"
+    },
+    {
+      "patient_id": "P79",
+      "condition_id": "C25",
+      "occurrence_date": "Unknown",
+      "status": "History of"
+    }
+  ],
+  "encounter_edges": [
+    {
+      "patient_id": "P79",
+      "encounter_id": "E1",
+      "occurrence_date": "Unknown"
+    },
+    {
+      "patient_id": "P79",
+      "encounter_id": "E2",
+      "occurrence_date": "Unknown"
+    },
+    {
+      "patient_id": "P79",
+      "encounter_id": "E3",
+      "occurrence_date": "Unknown"
+    },
+    {
+      "patient_id": "P79",
+      "encounter_id": "E4",
+      "occurrence_date": "Unknown"
+    },
+    {
+      "patient_id": "P79",
+      "encounter_id": "E5",
+      "occurrence_date": "Unknown"
+    },
+    {
+      "patient_id": "P79",
+      "encounter_id": "E6",
+      "occurrence_date": "Unknown"
+    }
+  ],
+  "lab_result_edges": [
+    {
+      "encounter_id": "E1",
+      "lab_id": "L1"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "L2"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "L3"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "L4"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "L5"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "L6"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "L7"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "L8"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "L9"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "L10"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "L11"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "L12"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "L13"
+    }
+  ],
+  "confidence": 1,
+  "justification": "The patient is a 68-year-old male with a history of T2DM, HTN, HLD, CAD, and CKD. He presented to the ED with acute onset of shortness of breath, chest pain, and diaphoresis. He was found to have an acute MI, specifically an inferior STEMI, with cardiogenic shock. He underwent emergent cardiac catheterization with PCI and stenting of the RCA. Post-procedure, he developed AKI, requiring dialysis. He also had a complicated hospital course including sepsis, C. difficile infection, and VTE. He was eventually discharged to a skilled nursing facility. The patient's medical history includes T2DM, HTN, HLD, CAD, and CKD. He presented to the ED with acute onset of shortness of breath, chest pain, and diaphoresis. He was found to have an acute MI, specifically an inferior STEMI, with cardiogenic shock. He underwent emergent cardiac catheterization with PCI and stenting of the RCA. Post-procedure, he developed AKI, requiring dialysis. He also had a complicated hospital course including sepsis, C. difficile infection, and VTE. He was eventually discharged to a skilled nursing facility."
+}
