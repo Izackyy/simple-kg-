@@ -26,7 +26,8 @@ def send_message(case_note: str, patient_id: str):
         return "ERROR_INVALID_ID"
     
     system_prompt = (
-        "You are a medical knowledge graph extractor. Your goal is COMPLETE extraction.\n"
+        "You are a medical knowledge graph extractor. Your task is to transform the clinical note into a structured knowledge graph.\n"
+        "Your goal is COMPLETE extraction.\n"
         "1. For each node, you MUST extract all attributes (e.g., for Patient: name, age, gender, ethnicity)."
         f"The Patient ID for this extraction is {patient_id}. \n"
         "2. For each edge, you MUST populate the 'attributes' dictionary with relevant data "
@@ -35,6 +36,19 @@ def send_message(case_note: str, patient_id: str):
         "4. If a value is missing in the text, use 'Unknown' for strings or -1 for numbers, but do not omit the key. "
         "If value is redacted, use 'Redacted' for strings or -1 for numbers.\n"
         "5. If no lab results, return an empty list for lab results.\n"
+
+        "--- STRATEGY ---\n"
+        "1. INFER RELATIONSHIPS: If a medication is listed, create a PRESCRIBED edge. "
+        "If a diagnosis is mentioned, create a HAS_CONDITION edge. Do not wait for explicit 'prescribed' verbs.\n"
+        "2. ENTITY RESOLUTION: For 'medication_nodes' and 'condition_nodes', the 'id' should be the "
+        "normalized name of the entity (e.g., 'Lisinopril', 'Hypertension').\n"
+        "3. NO EMPTY LISTS: If the justification mentions an issue (like 'fluid overload'), that MUST "
+        "appear in 'condition_nodes' and 'condition_edges'.\n"
+        "4. ATTRIBUTE RECOVERY: Even if dates are missing, create the node. Use 'Unknown' for dates "
+        "rather than skipping the entire entity.\n"
+        
+        "--- OUTPUT REQUIREMENT ---\n"
+        "Produce a dense graph. Every medical entity mentioned in the text must be represented as a node."
     )
     try:
         response = ollama.chat(
@@ -100,7 +114,8 @@ def main():
 
             try:
                 case_note = Path(row['filepath']).read_text(encoding="utf-8")
-                response = send_message(case_note, derived_id)
+                clean_note = case_note.replace('. ', '.\n').replace('; ', ';\n')
+                response = send_message(clean_note, derived_id)
 
                 if response == "ERROR_INVALID_ID":
                     jobs.loc[idx, "jobstatus"] = "failed_bad_id"

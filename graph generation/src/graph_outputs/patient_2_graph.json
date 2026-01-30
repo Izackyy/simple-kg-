@@ -1,0 +1,352 @@
+{
+  "patient_nodes": [
+    {
+      "id": "P2",
+      "name": "[REDACTED]",
+      "age": -1,
+      "gender": "Unknown",
+      "ethnicity": "Unknown"
+    }
+  ],
+  "medication_nodes": [
+    {
+      "id": "Rivaroxaban",
+      "name": "Rivaroxaban"
+    },
+    {
+      "id": "Augmentin",
+      "name": "Augmentin"
+    },
+    {
+      "id": "Tazocin",
+      "name": "Tazocin"
+    },
+    {
+      "id": "Recormon",
+      "name": "Recormon"
+    },
+    {
+      "id": "Danazol",
+      "name": "Danazol"
+    },
+    {
+      "id": "Cipro",
+      "name": "Cipro"
+    },
+    {
+      "id": "Hartmann's solution",
+      "name": "Hartmann's solution"
+    },
+    {
+      "id": "Blood Product Concentrate (BPC)",
+      "name": "Blood Product Concentrate (BPC)"
+    },
+    {
+      "id": "Packed Red Blood Cells (PCT)",
+      "name": "Packed Red Blood Cells (PCT)"
+    }
+  ],
+  "condition_nodes": [
+    {
+      "id": "Hypertension",
+      "name": "Hypertension"
+    },
+    {
+      "id": "Right Renal Cell Carcinoma (RCC)",
+      "name": "Right Renal Cell Carcinoma (RCC)"
+    },
+    {
+      "id": "Symptomatic large pericardial effusion",
+      "name": "Symptomatic large pericardial effusion"
+    },
+    {
+      "id": "Iron deficiency anemia",
+      "name": "Iron deficiency anemia"
+    },
+    {
+      "id": "Paroxysmal Atrial Fibrillation (pAF)",
+      "name": "Paroxysmal Atrial Fibrillation (pAF)"
+    },
+    {
+      "id": "Hypoproliferative marrow Anemia of chronic illness",
+      "name": "Hypoproliferative marrow Anemia of chronic illness"
+    },
+    {
+      "id": "COVID pneumonia",
+      "name": "COVID pneumonia"
+    },
+    {
+      "id": "Fluid responsive hypotension",
+      "name": "Fluid responsive hypotension"
+    },
+    {
+      "id": "Choking on food",
+      "name": "Choking on food"
+    },
+    {
+      "id": "Right lower zone hospital acquired pneumonia",
+      "name": "Right lower zone hospital acquired pneumonia"
+    },
+    {
+      "id": "Parapneumonic effusion",
+      "name": "Parapneumonic effusion"
+    },
+    {
+      "id": "Small right pleural effusion",
+      "name": "Small right pleural effusion"
+    },
+    {
+      "id": "Constipation",
+      "name": "Constipation"
+    },
+    {
+      "id": "Poor appetite",
+      "name": "Poor appetite"
+    },
+    {
+      "id": "Shortness of breath (SOB)",
+      "name": "Shortness of breath (SOB)"
+    },
+    {
+      "id": "Cough",
+      "name": "Cough"
+    },
+    {
+      "id": "Reduced mobility",
+      "name": "Reduced mobility"
+    }
+  ],
+  "encounter_nodes": [
+    {
+      "id": "E1",
+      "type": "Care Plan TCU HAE ambu clinic Dr [REDACTED] on 17/01/24"
+    }
+  ],
+  "lab_nodes": [
+    {
+      "id": "FBC",
+      "test_name": "FBC",
+      "value": -1.0,
+      "unit": "Unknown"
+    },
+    {
+      "id": "crea",
+      "test_name": "crea",
+      "value": -1.0,
+      "unit": "Unknown"
+    },
+    {
+      "id": "GXM OA HAE",
+      "test_name": "GXM OA HAE",
+      "value": -1.0,
+      "unit": "Unknown"
+    },
+    {
+      "id": "EPO level",
+      "test_name": "EPO level",
+      "value": 547.0,
+      "unit": "IU/L"
+    },
+    {
+      "id": "EPO level post embolization",
+      "test_name": "EPO level",
+      "value": 1697.0,
+      "unit": "IU/L"
+    },
+    {
+      "id": "CRP",
+      "test_name": "CRP",
+      "value": 13.9,
+      "unit": "Unknown"
+    },
+    {
+      "id": "Blood cultures",
+      "test_name": "Blood cultures",
+      "value": -1.0,
+      "unit": "Unknown"
+    },
+    {
+      "id": "MERS CoV respiratory panel",
+      "test_name": "MERS CoV respiratory panel",
+      "value": -1.0,
+      "unit": "Unknown"
+    },
+    {
+      "id": "FISH",
+      "test_name": "FISH",
+      "value": -1.0,
+      "unit": "Unknown"
+    },
+    {
+      "id": "Karyotype",
+      "test_name": "Karyotype",
+      "value": -1.0,
+      "unit": "Unknown"
+    }
+  ],
+  "prescribed_edges": [
+    {
+      "patient_id": "P2",
+      "medication_id": "Rivaroxaban",
+      "start_date": "27/12/19",
+      "end_date": "Unknown",
+      "dose": "Unknown",
+      "intensity": "Unknown"
+    }
+  ],
+  "condition_edges": [
+    {
+      "patient_id": "P2",
+      "condition_id": "Hypertension",
+      "occurrence_date": "Unknown",
+      "status": "Unknown"
+    },
+    {
+      "patient_id": "P2",
+      "condition_id": "Right Renal Cell Carcinoma (RCC)",
+      "occurrence_date": "10/09/20",
+      "status": "Unknown"
+    },
+    {
+      "patient_id": "P2",
+      "condition_id": "Symptomatic large pericardial effusion",
+      "occurrence_date": "05/12/19",
+      "status": "Unknown"
+    },
+    {
+      "patient_id": "P2",
+      "condition_id": "Iron deficiency anemia",
+      "occurrence_date": "Unknown",
+      "status": "Unknown"
+    },
+    {
+      "patient_id": "P2",
+      "condition_id": "Paroxysmal Atrial Fibrillation (pAF)",
+      "occurrence_date": "Unknown",
+      "status": "Unknown"
+    },
+    {
+      "patient_id": "P2",
+      "condition_id": "Hypoproliferative marrow Anemia of chronic illness",
+      "occurrence_date": "Unknown",
+      "status": "Unknown"
+    },
+    {
+      "patient_id": "P2",
+      "condition_id": "COVID pneumonia",
+      "occurrence_date": "13/12/23",
+      "status": "Unknown"
+    },
+    {
+      "patient_id": "P2",
+      "condition_id": "Fluid responsive hypotension",
+      "occurrence_date": "03/01/24",
+      "status": "Unknown"
+    },
+    {
+      "patient_id": "P2",
+      "condition_id": "Choking on food",
+      "occurrence_date": "Unknown",
+      "status": "Unknown"
+    },
+    {
+      "patient_id": "P2",
+      "condition_id": "Right lower zone hospital acquired pneumonia",
+      "occurrence_date": "Unknown",
+      "status": "Unknown"
+    },
+    {
+      "patient_id": "P2",
+      "condition_id": "Parapneumonic effusion",
+      "occurrence_date": "Unknown",
+      "status": "Unknown"
+    },
+    {
+      "patient_id": "P2",
+      "condition_id": "Small right pleural effusion",
+      "occurrence_date": "16/12/19",
+      "status": "Unknown"
+    },
+    {
+      "patient_id": "P2",
+      "condition_id": "Constipation",
+      "occurrence_date": "Unknown",
+      "status": "Unknown"
+    },
+    {
+      "patient_id": "P2",
+      "condition_id": "Poor appetite",
+      "occurrence_date": "Unknown",
+      "status": "Unknown"
+    },
+    {
+      "patient_id": "P2",
+      "condition_id": "Shortness of breath (SOB)",
+      "occurrence_date": "Unknown",
+      "status": "Unknown"
+    },
+    {
+      "patient_id": "P2",
+      "condition_id": "Cough",
+      "occurrence_date": "Unknown",
+      "status": "Unknown"
+    },
+    {
+      "patient_id": "P2",
+      "condition_id": "Reduced mobility",
+      "occurrence_date": "Unknown",
+      "status": "Unknown"
+    }
+  ],
+  "encounter_edges": [
+    {
+      "patient_id": "P2",
+      "encounter_id": "E1",
+      "occurrence_date": "17/01/24"
+    }
+  ],
+  "lab_result_edges": [
+    {
+      "encounter_id": "E1",
+      "lab_id": "FBC"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "crea"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "GXM OA HAE"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "EPO level"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "EPO level post embolization"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "CRP"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "Blood cultures"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "MERS CoV respiratory panel"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "FISH"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "Karyotype"
+    }
+  ],
+  "confidence": 1,
+  "justification": "The patient has multiple conditions including Hypertension, Right Renal Cell Carcinoma (RCC), Symptomatic large pericardial effusion, Iron deficiency anemia, Paroxysmal Atrial Fibrillation (pAF), Hypoproliferative marrow Anemia of chronic illness, COVID pneumonia, Fluid responsive hypotension, Choking on food, Right lower zone hospital acquired pneumonia, Parapneumonic effusion, Small right pleural effusion, Constipation, Poor appetite, Shortness of breath (SOB), Cough, and Reduced mobility. The patient is prescribed Rivaroxaban, Augmentin, Tazocin, Recormon, Danazol, Cipro, Hartmann's solution, Blood Product Concentrate (BPC), and Packed Red Blood Cells (PCT). Lab results include FBC, crea, GXM OA HAE, EPO level, CRP, Blood cultures, MERS CoV respiratory panel, FISH, and Karyotype. The patient had a care plan on 17/01/24."
+}

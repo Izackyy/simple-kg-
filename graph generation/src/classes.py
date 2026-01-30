@@ -2,7 +2,6 @@ from pydantic import BaseModel, Field
 from typing import List, Optional
 
 # Node Models
-
 class PatientNode(BaseModel):
     id: str = Field(description="Unique patient identifier provided in the system prompt, e.g., 'P99'")
     name: str = Field(description="Full legal name of the patient"  )
@@ -12,11 +11,11 @@ class PatientNode(BaseModel):
 
 class MedicationNode(BaseModel):
     id: str = Field(description="Generic or Brand name used as a unique ID, e.g., 'Metformin'")
-    name: str = Field(description="Full name of the medication")
+    name: str = Field(description="The full name of the medication can be found in the text, e.g., 'Metformin'")
 
 class ConditionNode(BaseModel):
     id: str = Field(description="Short clinical code or name, e.g., 'T2DM', 'Hypertension'")
-    name: str = Field(description="Full clinical name of the diagnosis")
+    name: str = Field(description="The full clinical name of the diagnosis can be found in the text, e.g., 'Type 2 Diabetes Mellitus'")
 
 class EncounterNode(BaseModel):
     id: str = Field(description="Unique identifier for the hospital visit, e.g., 'E9901'")
@@ -29,7 +28,6 @@ class LabResultNode(BaseModel):
     unit: str = Field(description="Measurement unit, e.g., '%', 'umol/L', 'mg/dL'")
 
 # Edge Models 
-
 class PrescribedEdge(BaseModel):
     patient_id: str = Field(description="Must match the PatientNode ID")
     medication_id: str = Field(description="Must match the MedicationNode ID")
@@ -54,7 +52,6 @@ class ResultedInEdge(BaseModel):
     lab_id: str = Field(description="Must match the LabResultNode ID")
 
 # Final Container Model
-
 class LLMOutput(BaseModel):
     """
     Extracted Clinical Knowledge Graph. 

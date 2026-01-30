@@ -1,0 +1,708 @@
+{
+  "patient_nodes": [
+    {
+      "id": "P1",
+      "name": "[REDACTED]",
+      "age": 83,
+      "gender": "Female",
+      "ethnicity": "Chinese"
+    }
+  ],
+  "medication_nodes": [
+    {
+      "id": "Enalapril",
+      "name": "Enalapril"
+    },
+    {
+      "id": "Fenofibrate",
+      "name": "Fenofibrate"
+    },
+    {
+      "id": "Nifedipine",
+      "name": "Nifedipine"
+    },
+    {
+      "id": "Frusemide",
+      "name": "Frusemide"
+    },
+    {
+      "id": "Rivaroxaban",
+      "name": "Rivaroxaban"
+    },
+    {
+      "id": "Atorvastatin",
+      "name": "Atorvastatin"
+    },
+    {
+      "id": "Bisacodyl",
+      "name": "Bisacodyl"
+    },
+    {
+      "id": "Bisoprolol",
+      "name": "Bisoprolol"
+    },
+    {
+      "id": "Calcium carb/Vit D",
+      "name": "Calcium carb/Vit D"
+    },
+    {
+      "id": "Denusumab",
+      "name": "Denusumab"
+    },
+    {
+      "id": "Polymaltose",
+      "name": "Polymaltose"
+    },
+    {
+      "id": "Ketoprofen gel",
+      "name": "Ketoprofen gel"
+    },
+    {
+      "id": "Ketoprofen plaster",
+      "name": "Ketoprofen plaster"
+    },
+    {
+      "id": "Lactulose",
+      "name": "Lactulose"
+    },
+    {
+      "id": "Omeprazole",
+      "name": "Omeprazole"
+    },
+    {
+      "id": "Senna",
+      "name": "Senna"
+    },
+    {
+      "id": "Paracetamol",
+      "name": "Paracetamol"
+    },
+    {
+      "id": "Piptazo",
+      "name": "Piptazo"
+    }
+  ],
+  "condition_nodes": [
+    {
+      "id": "Acute decompensated heart failure",
+      "name": "Acute decompensated heart failure"
+    },
+    {
+      "id": "Pneumonia",
+      "name": "Pneumonia"
+    },
+    {
+      "id": "Thrombocytopaenia",
+      "name": "Thrombocytopaenia"
+    },
+    {
+      "id": "Atrial fibrillation",
+      "name": "Atrial fibrillation"
+    },
+    {
+      "id": "Osteoarthritis of both knees",
+      "name": "Osteoarthritis of both knees"
+    },
+    {
+      "id": "Transaminitis",
+      "name": "Transaminitis"
+    },
+    {
+      "id": "Anaemia",
+      "name": "Anaemia"
+    },
+    {
+      "id": "Hypertension",
+      "name": "Hypertension"
+    },
+    {
+      "id": "Hyperlipidaemia",
+      "name": "Hyperlipidaemia"
+    },
+    {
+      "id": "CKD",
+      "name": "CKD"
+    },
+    {
+      "id": "Severe TR",
+      "name": "Severe TR"
+    },
+    {
+      "id": "Fluid overload",
+      "name": "Fluid overload"
+    },
+    {
+      "id": "Aortic valve sclerosis",
+      "name": "Aortic valve sclerosis"
+    },
+    {
+      "id": "Moderate degenerative and calcified mitral stenosis",
+      "name": "Moderate degenerative and calcified mitral stenosis"
+    },
+    {
+      "id": "Mild to moderate MR",
+      "name": "Mild to moderate MR"
+    },
+    {
+      "id": "PR",
+      "name": "PR"
+    },
+    {
+      "id": "L UL weakness since birth",
+      "name": "L UL weakness since birth"
+    },
+    {
+      "id": "Right Lower limb ulcers",
+      "name": "Right Lower limb ulcers"
+    },
+    {
+      "id": "Chronic lower limb oedema",
+      "name": "Chronic lower limb oedema"
+    },
+    {
+      "id": "Atherosclerotic disease",
+      "name": "Atherosclerotic disease"
+    },
+    {
+      "id": "Cholestatic LFT",
+      "name": "Cholestatic LFT"
+    },
+    {
+      "id": "Hepatic congestion",
+      "name": "Hepatic congestion"
+    },
+    {
+      "id": "Iron deficiency anemia",
+      "name": "Iron deficiency anemia"
+    },
+    {
+      "id": "H pylori gastritis",
+      "name": "H pylori gastritis"
+    },
+    {
+      "id": "Osteoporosis",
+      "name": "Osteoporosis"
+    },
+    {
+      "id": "E. coli sepsis",
+      "name": "E. coli sepsis"
+    },
+    {
+      "id": "Right pyelonephritis",
+      "name": "Right pyelonephritis"
+    },
+    {
+      "id": "Gastritis",
+      "name": "Gastritis"
+    },
+    {
+      "id": "Bilateral Knee OA",
+      "name": "Bilateral Knee OA"
+    },
+    {
+      "id": "Pes planus",
+      "name": "Pes planus"
+    },
+    {
+      "id": "Right cataract",
+      "name": "Right cataract"
+    },
+    {
+      "id": "Fall",
+      "name": "Fall outsource"
+    },
+    {
+      "id": "R knee pain",
+      "name": "R knee pain"
+    },
+    {
+      "id": "Gout flares",
+      "name": "Gout flares"
+    },
+    {
+      "id": "L hand dorsum swelling",
+      "name": "L hand dorsum swelling"
+    },
+    {
+      "id": "Renal parenchymal disease",
+      "name": "Renal parenchymal disease"
+    },
+    {
+      "id": "Left renal calculus",
+      "name": "Left renal calculus"
+    },
+    {
+      "id": "Ascites",
+      "name": "Ascites"
+    },
+    {
+      "id": "Bilateral pleural effusions",
+      "name": "Bilateral pleural effusions"
+    },
+    {
+      "id": "COVID-19",
+      "name": "COVID-19"
+    }
+  ],
+  "encounter_nodes": [
+    {
+      "id": "E1",
+      "type": "Hospitalization"
+    }
+  ],
+  "lab_nodes": [
+    {
+      "id": "CRP 80",
+      "test_name": "CRP",
+      "value": 80.0,
+      "unit": ""
+    },
+    {
+      "id": "Plt 101",
+      "test_name": "Platelet",
+      "value": 101.0,
+      "unit": ""
+    },
+    {
+      "id": "Plt 78",
+      "test_name": "Platelet",
+      "value": 78.0,
+      "unit": ""
+    },
+    {
+      "id": "Plt 105",
+      "test_name": "Platelet",
+      "value": 105.0,
+      "unit": ""
+    },
+    {
+      "id": "Trop I 120",
+      "test_name": "Troponin I",
+      "value": 120.0,
+      "unit": ""
+    },
+    {
+      "id": "Trop I 172",
+      "test_name": "Troponin I",
+      "value": 172.0,
+      "unit": ""
+    },
+    {
+      "id": "Hb 11.8",
+      "test_name": "Hemoglobin",
+      "value": 11.8,
+      "unit": ""
+    },
+    {
+      "id": "Hb 10.7",
+      "test_name": "Hemoglobin",
+      "value": 10.7,
+      "unit": ""
+    },
+    {
+      "id": "Hb 12.1",
+      "test_name": "Hemoglobin",
+      "value": 12.1,
+      "unit": ""
+    },
+    {
+      "id": "MCV 95.4",
+      "test_name": "MCV",
+      "value": 95.4,
+      "unit": ""
+    },
+    {
+      "id": "MCHC 30.4",
+      "test_name": "MCHC",
+      "value": 30.4,
+      "unit": ""
+    },
+    {
+      "id": "ALP 180",
+      "test_name": "ALP",
+      "value": 180.0,
+      "unit": ""
+    },
+    {
+      "id": "GGT 206",
+      "test_name": "GGT",
+      "value": 206.0,
+      "unit": ""
+    },
+    {
+      "id": "ALP 249",
+      "test_name": "ALP",
+      "value": 249.0,
+      "unit": ""
+    },
+    {
+      "id": "GGT 294",
+      "test_name": "GGT",
+      "value": 294.0,
+      "unit": ""
+    }
+  ],
+  "prescribed_edges": [
+    {
+      "patient_id": "P1",
+      "medication_id": "Enalapril",
+      "start_date": "Unknown",
+      "end_date": "Ongoing",
+      "dose": "Unknown",
+      "intensity": "Unknown"
+    },
+    {
+      "patient_id": "P1",
+      "medication_id": "Fenofibrate",
+      "start_date": "Unknown",
+      "end_date": "Ongoing",
+      "dose": "Unknown",
+      "intensity": "Unknown"
+    },
+    {
+      "patient_id": "P1",
+      "medication_id": "Nifedipine",
+      "start_date": "Unknown",
+      "end_date": "Ongoing",
+      "dose": "Unknown",
+      "intensity": "Unknown"
+    },
+    {
+      "patient_id": "P1",
+      "medication_id": "Frusemide",
+      "start_date": "Unknown",
+      "end_date": "Ongoing",
+      "dose": "20 mg OD PRN",
+      "intensity": "Unknown"
+    },
+    {
+      "patient_id": "P1",
+      "medication_id": "Rivaroxaban",
+      "start_date": "Unknown",
+      "end_date": "Ongoing",
+      "dose": "Unknown",
+      "intensity": "Unknown"
+    },
+    {
+      "patient_id": "P1",
+      "medication_id": "Atorvastatin",
+      "start_date": "Unknown",
+      "end_date": "Ongoing",
+      "dose": "Unknown",
+      "intensity": "Unknown"
+    },
+    {
+      "patient_id": "P1",
+      "medication_id": "Bisacodyl",
+      "start_date": "Unknown",
+      "end_date": "Ongoing",
+      "dose": "Unknown",
+      "intensity": "Unknown"
+    },
+    {
+      "patient_id": "P1",
+      "medication_id": "Bisoprolol",
+      "start_date": "Unknown",
+      "end_date": "Ongoing",
+      "dose": "Unknown",
+      "intensity": "Unknown"
+    },
+    {
+      "patient_id": "P1",
+      "medication_id": "Calcium carb/Vit D",
+      "start_date": "Unknown",
+      "end_date": "Ongoing",
+      "dose": "Unknown",
+      "intensity": "Unknown"
+    },
+    {
+      "patient_id": "P1",
+      "medication_id": "Denusumab",
+      "start_date": "Unknown",
+      "end_date": "Ongoing",
+      "dose": "Unknown",
+      "intensity": "Unknown"
+    },
+    {
+      "patient_id": "P1",
+      "medication_id": "Polymaltose",
+      "start_date": "Unknown",
+      "end_date": "Ongoing",
+      "dose": "Unknown",
+      "intensity": "Unknown"
+    },
+    {
+      "patient_id": "P1",
+      "medication_id": "Ketoprofen gel",
+      "start_date": "Unknown",
+      "end_date": "Ongoing",
+      "dose": "Unknown",
+      "intensity": "Unknown"
+    },
+    {
+      "patient_id": "P1",
+      "medication_id": "Ketoprofen plaster",
+      "start_date": "Unknown",
+      "end_date": "Ongoing",
+      "dose": "Unknown",
+      "intensity": "Unknown"
+    },
+    {
+      "patient_id": "P1",
+      "medication_id": "Lactulose",
+      "start_date": "Unknown",
+      "end_date": "Ongoing",
+      "dose": "Unknown",
+      "intensity": "Unknown"
+    },
+    {
+      "patient_id": "P1",
+      "medication_id": "Omeprazole",
+      "start_date": "Unknown",
+      "end_date": "Ongoing",
+      "dose": "Unknown",
+      "intensity": "Unknown"
+    },
+    {
+      "patient_id": "P1",
+      "medication_id": "Senna",
+      "start_date": "Unknown",
+      "end_date": "Ongoing",
+      "dose": "Unknown",
+      "intensity": "Unknown"
+    },
+    {
+      "patient_id": "P1",
+      "medication_id": "Paracetamol",
+      "start_date": "Unknown",
+      "end_date": "Ongoing",
+      "dose": "Unknown",
+      "intensity": "Unknown"
+    },
+    {
+      "patient_id": "P1",
+      "medication_id": "Piptazo",
+      "start_date": "Unknown",
+      "end_date": "Ongoing",
+      "dose": "Unknown",
+      "intensity": "Unknown"
+    }
+  ],
+  "condition_edges": [
+    {
+      "patient_id": "P1",
+      "condition_id": "Acute decompensated heart failure",
+      "occurrence_date": "23/04/2021",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P1",
+      "condition_id": "Pneumonia",
+      "occurrence_date": "23/04/2021",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P1",
+      "condition_id": "Thrombocytopaenia",
+      "occurrence_date": "23/04/2021",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P1",
+      "condition_id": "Atrial fibrillation",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P1",
+      "condition_id": "Osteoarthritis of both knees",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P1",
+      "condition_id": "Transaminitis",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P1",
+      "condition_id": "Anaemia",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P1",
+      "condition_id": "Hypertension",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P1",
+      "condition_id": "Hyperlipidaemia",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P1",
+      "condition_id": "CKD",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P1",
+      "condition_id": "Severe TR",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P1",
+      "condition_id": "Fluid overload",
+      "occurrence_date": "23/04/2021",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P1",
+      "condition_id": "Aortic valve sclerosis",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P1",
+      "condition_id": "Moderate degenerative and calcified mitral stenosis",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P1",
+      "condition_id": "Mild to moderate MR",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P1",
+      "condition_id": "PR",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P1",
+      "condition_id": "L hand dorsum swelling",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P1",
+      "condition_id": "Renal parenchymal disease",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P1",
+      "condition_id": "Left renal calculus",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P1",
+      "condition_id": "Ascites",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P1",
+      "condition_id": "Bilateral pleural effusions",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P1",
+      "condition_id": "COVID-19",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P1",
+      "condition_id": "R knee pain",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P1",
+      "condition_id": "Gout flares",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    }
+  ],
+  "encounter_edges": [
+    {
+      "patient_id": "P1",
+      "encounter_id": "E1",
+      "occurrence_date": "23/04/2021"
+    }
+  ],
+  "lab_result_edges": [
+    {
+      "encounter_id": "E1",
+      "lab_id": "CRP 80"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "Plt 101"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "Plt 78"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "Plt 105"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "Trop I 120"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "Trop I 172"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "Hb 11.8"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "Hb 10.7"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "Hb 12.1"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "MCV 95.4"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "MCHC 30.4"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "ALP 180"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "GGT 206"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "ALP 249"
+    },
+    {
+      "encounter_id": "E1",
+      "lab_id": "GGT 294"
+    }
+  ],
+  "confidence": 1,
+  "justification": "The patient is a 80-year-old female with a history of hypertension, hyperlipidemia, CKD, osteoarthritis, and anemia. She presented to the hospital on 23/04/2021 with acute decompensated heart failure, pneumonia, and thrombocytopenia. Lab results showed elevated CRP, Troponin I, and GGT. She was prescribed Frusemide 20 mg OD PRN. She has a history of atrial fibrillation, transaminitis, severe TR, fluid overload, aortic valve sclerosis, moderate degenerative and calcified mitral stenosis, mild to moderate MR, PR, renal parenchymal disease, left renal calculus, ascites, bilateral pleural effusions, COVID-19, R knee pain, and gout flares."
+}

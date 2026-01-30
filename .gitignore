@@ -5,6 +5,7 @@ graph_generation/src/ingested_files.txt
 # Data Directories
 # Ignores everything inside the data/ folder
 graph_generation/data/real/
+graph_generation/src/graph_outputs/
 
 # Specific File Requests
 

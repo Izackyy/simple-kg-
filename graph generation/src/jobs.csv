@@ -1,4 +1,4 @@
 patient_id,filepath,jobstatus,llm_output_full_path,last_updated,date_created
-0,C:\Users\dsai_\OneDrive\Desktop\Isaac\simple-kg-\graph generation\data\SyntheticHSATestData\File0_synopsis.txt,pending,,,2026-01-30 16:14:44
-1,C:\Users\dsai_\OneDrive\Desktop\Isaac\simple-kg-\graph generation\data\SyntheticHSATestData\File1_synopsis.txt,pending,,,2026-01-30 16:14:44
-2,C:\Users\dsai_\OneDrive\Desktop\Isaac\simple-kg-\graph generation\data\SyntheticHSATestData\File2_synopsis.txt,pending,,,2026-01-30 16:14:44
+0,C:\Users\dsai_\OneDrive\Desktop\Isaac\simple-kg-\graph generation\data\SyntheticHSATestData\File0_synopsis.txt,completed,C:\Users\dsai_\OneDrive\Desktop\Isaac\simple-kg-\graph generation\src\graph_outputs\patient_0_graph.json,2026-01-30 17:08:40.037248,2026-01-30 16:14:44
+1,C:\Users\dsai_\OneDrive\Desktop\Isaac\simple-kg-\graph generation\data\SyntheticHSATestData\File1_synopsis.txt,completed,C:\Users\dsai_\OneDrive\Desktop\Isaac\simple-kg-\graph generation\src\graph_outputs\patient_1_graph.json,2026-01-30 17:22:46.376180,2026-01-30 16:14:44
+2,C:\Users\dsai_\OneDrive\Desktop\Isaac\simple-kg-\graph generation\data\SyntheticHSATestData\File2_synopsis.txt,completed,C:\Users\dsai_\OneDrive\Desktop\Isaac\simple-kg-\graph generation\src\graph_outputs\patient_2_graph.json,2026-01-30 17:30:25.088094,2026-01-30 16:14:44

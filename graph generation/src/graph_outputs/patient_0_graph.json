@@ -8,14 +8,626 @@
       "ethnicity": "Unknown"
     }
   ],
-  "medication_nodes": [],
-  "condition_nodes": [],
-  "encounter_nodes": [],
-  "lab_nodes": [],
-  "prescribed_edges": [],
-  "condition_edges": [],
-  "encounter_edges": [],
-  "lab_result_edges": [],
+  "medication_nodes": [
+    {
+      "id": "Rivaroxaban",
+      "name": "Rivaroxaban"
+    },
+    {
+      "id": "Denosumab",
+      "name": "Denosumab"
+    },
+    {
+      "id": "Bisoprolol",
+      "name": "Bisoprolol"
+    },
+    {
+      "id": "Atorvastatin",
+      "name": "Atorvastatin"
+    },
+    {
+      "id": "Ferrous gluconate",
+      "name": "Ferrous gluconate"
+    },
+    {
+      "id": "Lasix",
+      "name": "Lasix"
+    },
+    {
+      "id": "Vitamin C",
+      "name": "Vitamin C"
+    },
+    {
+      "id": "Zinc",
+      "name": "Zinc"
+    },
+    {
+      "id": "Pneumococcal PCV 13",
+      "name": "Pneumococcal PCV 13"
+    },
+    {
+      "id": "Pneumococcal PPSV 23",
+      "name": "Pneumococcal PPSV 23"
+    },
+    {
+      "id": "Influenza",
+      "name": "Influenza"
+    }
+  ],
+  "condition_nodes": [
+    {
+      "id": "Fluid overload",
+      "name": "Fluid overload"
+    },
+    {
+      "id": "Severe TR",
+      "name": "Severe TR"
+    },
+    {
+      "id": "R LL wound",
+      "name": "R LL wound"
+    },
+    {
+      "id": "Chronic LL edema",
+      "name": "Chronic LL edema"
+    },
+    {
+      "id": "Subacute functional decline",
+      "name": "Subacute functional decline"
+    },
+    {
+      "id": "HTN",
+      "name": "HTN"
+    },
+    {
+      "id": "HLD",
+      "name": "HLD"
+    },
+    {
+      "id": "Bilateral Knee OA",
+      "name": "Bilateral Knee OA"
+    },
+    {
+      "id": "E. coli sepsis",
+      "name": "E. coli sepsis"
+    },
+    {
+      "id": "Right pyelonephritis",
+      "name": "Right pyelonephritis"
+    },
+    {
+      "id": "Gastritis",
+      "name": "Gastritis"
+    },
+    {
+      "id": "Right cataract",
+      "name": "Right cataract"
+    },
+    {
+      "id": "Iron deficiency anemia",
+      "name": "Iron deficiency anemia"
+    },
+    {
+      "id": "H pylori gastritis",
+      "name": "H pylori gastritis"
+    },
+    {
+      "id": "AF",
+      "name": "AF"
+    },
+    {
+      "id": "CVM CGH",
+      "name": "CVM CGH"
+    },
+    {
+      "id": "LVEF 50",
+      "name": "LVEF 50"
+    },
+    {
+      "id": "No RWMA",
+      "name": "No RWMA"
+    },
+    {
+      "id": "Pulmonary hypertension",
+      "name": "Pulmonary hypertension"
+    },
+    {
+      "id": "Osteoporosis",
+      "name": "Osteoporosis"
+    },
+    {
+      "id": "Bilateral OA knees",
+      "name": "Bilateral OA knees"
+    },
+    {
+      "id": "Bilateral flat feet",
+      "name": "Bilateral flat feet"
+    },
+    {
+      "id": "R claw hand",
+      "name": "R claw hand"
+    },
+    {
+      "id": "Right LL cellulitis",
+      "name": "Right LL cellulitis"
+    },
+    {
+      "id": "AOCKD",
+      "name": "AOCKD"
+    },
+    {
+      "id": "Trop leak",
+      "name": "Trop leak"
+    },
+    {
+      "id": "Hyperbilirubinaemia",
+      "name": "Hyperbilirubinaemia"
+    },
+    {
+      "id": "Left LZ Pneumonia",
+      "name": "Left LZ Pneumonia"
+    },
+    {
+      "id": "Right lower limb ulcer",
+      "name": "Right lower limb ulcer"
+    },
+    {
+      "id": "Cholestatic LFT",
+      "name": "Cholestatic LFT"
+    },
+    {
+      "id": "Small gallbladder polyp/adherent calculus",
+      "name": "Small gallbladder polyp/adherent calculus"
+    },
+    {
+      "id": "Non specific gallbladder wall oedema",
+      "name": "Non specific gallbladder wall oedema"
+    },
+    {
+      "id": "Slight irregularity of liver surface",
+      "name": "Slight irregularity of liver surface"
+    },
+    {
+      "id": "Cirrhosis",
+      "name": "Cirrhosis"
+    },
+    {
+      "id": "Renal parenchymal disease",
+      "name": "Renal parenchymal disease"
+    },
+    {
+      "id": "Bilateral renal cysts",
+      "name": "Bilateral renal cysts"
+    },
+    {
+      "id": "Non obstructive left renal calculus",
+      "name": "Non obstructive left renal calculus"
+    },
+    {
+      "id": "Functional decline",
+      "name": "Functional decline"
+    },
+    {
+      "id": "ADL indept",
+      "name": "ADL indept"
+    }
+  ],
+  "encounter_nodes": [
+    {
+      "id": "E0",
+      "type": "Admission"
+    },
+    {
+      "id": "E1",
+      "type": "Discharge"
+    }
+  ],
+  "lab_nodes": [
+    {
+      "id": "Vit D 32.8",
+      "test_name": "Vit D",
+      "value": 32.8,
+      "unit": "Unknown"
+    },
+    {
+      "id": "LVEF 50",
+      "test_name": "LVEF",
+      "value": 50.0,
+      "unit": "%"
+    },
+    {
+      "id": "PASP 50 mmHg",
+      "test_name": "PASP",
+      "value": 50.0,
+      "unit": "mmHg"
+    },
+    {
+      "id": "LVEF 60",
+      "test_name": "LVEF",
+      "value": 60.0,
+      "unit": "%"
+    }
+  ],
+  "prescribed_edges": [
+    {
+      "patient_id": "P0",
+      "medication_id": "Rivaroxaban",
+      "start_date": "Unknown",
+      "end_date": "Unknown",
+      "dose": "Unknown",
+      "intensity": "Unknown"
+    },
+    {
+      "patient_id": "P0",
+      "medication_id": "Denosumab",
+      "start_date": "Oct 2020",
+      "end_date": "Unknown",
+      "dose": "Unknown",
+      "intensity": "Unknown"
+    },
+    {
+      "patient_id": "P0",
+      "medication_id": "Lasix",
+      "start_date": "11/3/21",
+      "end_date": "Unknown",
+      "dose": "40 mg",
+      "intensity": "IV"
+    },
+    {
+      "patient_id": "P0",
+      "medication_id": "Lasix",
+      "start_date": "16/3/21",
+      "end_date": "Unknown",
+      "dose": "40 mg",
+      "intensity": "IV"
+    },
+    {
+      "patient_id": "P0",
+      "medication_id": "Lasix",
+      "start_date": "19/3/21",
+      "end_date": "Unknown",
+      "dose": "80 mg",
+      "intensity": "IV"
+    },
+    {
+      "patient_id": "P0",
+      "medication_id": "Lasix",
+      "start_date": "19/3/21",
+      "end_date": "Unknown",
+      "dose": "40 mg",
+      "intensity": "IV"
+    },
+    {
+      "patient_id": "P0",
+      "medication_id": "Denosumab",
+      "start_date": "18/3/21",
+      "end_date": "Unknown",
+      "dose": "Unknown",
+      "intensity": "Unknown"
+    },
+    {
+      "patient_id": "P0",
+      "medication_id": "Bisoprolol",
+      "start_date": "Unknown",
+      "end_date": "Unknown",
+      "dose": "5 mg",
+      "intensity": "BD"
+    },
+    {
+      "patient_id": "P0",
+      "medication_id": "Atorvastatin",
+      "start_date": "Unknown",
+      "end_date": "Unknown",
+      "dose": "20 mg",
+      "intensity": "ON"
+    },
+    {
+      "patient_id": "P0",
+      "medication_id": "Vitamin C",
+      "start_date": "Unknown",
+      "end_date": "Unknown",
+      "dose": "Unknown",
+      "intensity": "Unknown"
+    },
+    {
+      "patient_id": "P0",
+      "medication_id": "Zinc",
+      "start_date": "Unknown",
+      "end_date": "Unknown",
+      "dose": "Unknown",
+      "intensity": "Unknown"
+    },
+    {
+      "patient_id": "P0",
+      "medication_id": "Pneumococcal PCV 13",
+      "start_date": "30/11/2018",
+      "end_date": "Unknown",
+      "dose": "Unknown",
+      "intensity": "Unknown"
+    },
+    {
+      "patient_id": "P0",
+      "medication_id": "Pneumococcal PPSV 23",
+      "start_date": "7/9/20",
+      "end_date": "Unknown",
+      "dose": "Unknown",
+      "intensity": "Unknown"
+    },
+    {
+      "patient_id": "P0",
+      "medication_id": "Influenza",
+      "start_date": "7/9/20",
+      "end_date": "Unknown",
+      "dose": "Unknown",
+      "intensity": "Unknown"
+    }
+  ],
+  "condition_edges": [
+    {
+      "patient_id": "P0",
+      "condition_id": "Fluid overload",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "Severe TR",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "R LL wound",
+      "occurrence_date": "18 Feb 2021",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "Chronic LL edema",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "Subacute functional decline",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "HTN",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "HLD",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "Bilateral Knee OA",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "E. coli sepsis",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "Right pyelonephritis",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "Gastritis",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "Right cataract",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "Iron deficiency anemia",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "H pylori gastritis",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "AF",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "CVM CGH",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "LVEF 50",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "No RWMA",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "Pulmonary hypertension",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "Osteoporosis",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "Bilateral OA knees",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "Bilateral flat feet",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "R claw hand",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "Right LL cellulitis",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "AOCKD",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "Trop leak",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "Hyperbilirubinaemia",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "Left LZ Pneumonia",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "Right lower limb ulcer",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "Cholestatic LFT",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "Small gallbladder polyp/adherent calculus",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "Non specific gallbladder wall oedema",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "Slight irregularity of liver surface",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "Cirrhosis",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "Renal parenchymal disease",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "Bilateral renal cysts",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "Non obstructive left renal calculus",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "Functional decline",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    },
+    {
+      "patient_id": "P0",
+      "condition_id": "ADL indept",
+      "occurrence_date": "Unknown",
+      "status": "Active"
+    }
+  ],
+  "encounter_edges": [
+    {
+      "patient_id": "P0",
+      "encounter_id": "E0",
+      "occurrence_date": "Unknown"
+    },
+    {
+      "patient_id": "P0",
+      "encounter_id": "E1",
+      "occurrence_date": "Unknown"
+    }
+  ],
+  "lab_result_edges": [
+    {
+      "encounter_id": "E0",
+      "lab_id": "Vit D 32.8"
+    },
+    {
+      "encounter_id": "E0",
+      "lab_id": "LVEF 50"
+    },
+    {
+      "encounter_id": "E0",
+      "lab_id": "PASP 50 mmHg"
+    },
+    {
+      "encounter_id": "E0",
+      "lab_id": "LVEF 60"
+    }
+  ],
   "confidence": 1,
-  "justification": "The clinical note is a discharge summary for an 82-year-old female patient (P0) admitted for fluid overload, right lower limb ulcer, and functional decline. The note details her social history, premorbid function, past medical history, presenting complaint, physical findings, active issues, condition on discharge, medication review, treatment goals, and follow-up plan. The schema requires extracting all attributes for each node and populating edge attributes. The provided text contains information for the patient node, but lacks sufficient detail for other node types like medications, conditions, encounters, or labs to fully populate the schema according to the instructions. Therefore, the output reflects the extracted information, including 'Unknown' or -1 where values are missing or redacted, and empty lists where applicable."
+  "justification": "The patient is an 82-year-old female with a history of HTN, HLD, AF, CVM CGH, Bilateral Knee OA, Bilateral flat feet, R claw hand, Iron deficiency anemia, Gastritis, Right cataract, Osteoporosis, E. coli sepsis, Right pyelonephritis, and Left LZ Pneumonia. She presented with Fluid overload, Severe TR, R LL wound, Chronic LL edema, and Subacute functional decline. Labs showed Vit D 32.8, LVEF 50, PASP 50 mmHg, and LVEF 60. She was prescribed Rivaroxaban, Denosumab, Lasix, Bisoprolol, Atorvastatin, Vitamin C, Zinc, Pneumococcal PCV 13, Pneumococcal PPSV 23, and Influenza. She was admitted and subsequently discharged."
 }
